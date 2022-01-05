@@ -13,7 +13,15 @@ contract MemoryToken is ERC721URIStorage {
 
     }
 
-    function mint(address wallet, string memory _tokenURI) public returns(uint256) {
+    function mint(address _wallet, string memory _tokenURI) public returns(uint256) {
 
+        uint256 tokenId = _tokenIdCounter.current();
+
+        _safeMint(_wallet, tokenId);
+        _setTokenURI(tokenId, _tokenURI);
+
+        _tokenIdCounter.increment();
+
+        return tokenId;
     }
 }
