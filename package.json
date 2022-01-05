@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mrlramos/ntf-test#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.4.1"
+    "@openzeppelin/contracts": "^4.4.1",
+    "chai-as-promised": "^7.1.1"
   }
 }

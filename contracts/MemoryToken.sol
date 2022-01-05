@@ -1,3 +1,6 @@
+/*
+ SPDX-License-Identifier: MIT
+*/
 pragma solidity ^0.8.10;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
@@ -9,7 +12,7 @@ contract MemoryToken is ERC721URIStorage {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("Memory Token", "MT") {
+    constructor() ERC721("Memory Token", "MMT") {
 
     }
 
