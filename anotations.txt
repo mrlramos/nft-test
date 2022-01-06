@@ -1,0 +1,11 @@
+NODE
+Ganache
+Truffle
+
+inserção GIT
+codding
+
+OpenZeppelin
+Test - Chai & Chai-as-promised
+
+Comando --dry-run testa gastos na rede
