@@ -1,11 +1,25 @@
+First Step:
 NODE
 Ganache
 Truffle
 
-inserção GIT
-codding
+"Adding GIT"
+"Codding"
 
 OpenZeppelin
-Test - Chai & Chai-as-promised
+For Tests - Chai & Chai-as-promised
 
-Comando --dry-run testa gastos na rede
+"Comando --dry-run testa gastos na rede"
+
+Remix Ethereum
+
+
+
+Second step:
+React
+create-react-app
+React Redux
+reduxssauce para implementar padrão Duck Pattern
+seamless-immutable
+react-bootstrap
+bootstrap
